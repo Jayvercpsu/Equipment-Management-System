@@ -1,0 +1,41 @@
+CI_ENVIRONMENT = development
+
+app.baseURL = 'http://localhost:8080/index.php/'
+app.indexPage = ''
+app.forceGlobalSecureRequests = false
+app.sessionDriver = 'CodeIgniter\Session\Handlers\DatabaseHandler'
+app.sessionCookieName = 'ci_session'
+app.sessionExpiration = 7200
+app.sessionSavePath = 'ci_sessions'
+app.sessionMatchIP = false
+app.sessionTimeToUpdate = 300
+app.sessionRegenerateDestroy = false
+
+database.default.hostname = localhost
+database.default.database = itso_equipment
+database.default.username = root
+database.default.password = 
+database.default.DBDriver = MySQLi
+database.default.DBPrefix = 
+database.default.port = 3306
+database.default.charset = utf8mb4
+database.default.DBCollat = utf8mb4_general_ci
+
+email.protocol = smtp
+email.SMTPHost = smtp.gmail.com
+email.SMTPUser = itso.itdesk.ph@gmail.com
+email.SMTPPass = ivkh czre etqp zbop
+email.SMTPPort = 587
+email.SMTPCrypto = tls
+email.mailType = html
+email.charset = utf-8
+email.fromEmail = itso.itdesk.ph@gmail.com
+email.fromName = ITSO Equipment System
+
+app.CSRFProtection = true
+app.CSRFTokenName = 'csrf_token'
+app.CSRFHeaderName = 'X-CSRF-TOKEN'
+app.CSRFCookieName = 'csrf_cookie'
+app.CSRFExpire = 7200
+app.CSRFRegenerate = true
+app.CSRFSameSite = 'Lax'
